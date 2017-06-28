@@ -13,14 +13,14 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
-  "production": {
-    "use_env_variable": "mysql://s54wx6itvn55aln9:jzg3bz9f0n3wcaxq@jj820qt5lpu6krut.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/mt2iickx1y6fbnt6"
-  }
 //  "production": {
-//    "username": "hzgs8c49hhui0don",
-//    "password": "n9rqc2hw3vv1c5j3",
-//    "database": "database_production",
-//    "host": "jj820qt5lpu6krut.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-//    "dialect": "mysql"
+//    "use_env_variable": "mysql://s54wx6itvn55aln9:jzg3bz9f0n3wcaxq@jj820qt5lpu6krut.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/mt2iickx1y6fbnt6"
 //  }
+  "production": {
+    "username": "s54wx6itvn55aln9",
+    "password": "jzg3bz9f0n3wcaxq",
+    "database": "mt2iickx1y6fbnt6",
+    "host": "jj820qt5lpu6krut.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
 }
