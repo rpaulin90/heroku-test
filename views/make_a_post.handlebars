@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <div class="form-group">
+                <h4>Where is this item located ?</h4>
+                <select class="form-control" id="post_item_base">
+                    <option value="0">-- Choose a base --</option>
+                    {{#each bases }}
+                        <option value="{{this.id}}">{{this.base}}</option>
+                    {{/each}}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h4>What category this item belongs to ?</h4>
+                <select class="form-control" id="post_item_category">
+                    <option value="0">-- Choose a category --</option>
+                    {{#each categories }}
+                        <option value="{{this.id}}">{{this.category}}</option>
+                    {{/each}}
+                </select>
+            </div>
+
+
+            <h4>Item name</h4>
+            <input type="text" name="" id="post_item_name" class="form-control" required>
+
+            <h4>Price</h4>
+            <input class="form-control" type="number" value="" id="post_item_price">
+
+            <h4>Image File</h4>
+            <input class="form-control" type="text" value="" id="post_item_image">
+
+            <form>
+                <div class="form-group">
+                    <h4 for="comment">Description</h4>
+                    <textarea class="form-control" rows="5" id="post_item_description"></textarea>
+                </div>
+            </form>
+
+            <hr>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-lg " id="post_item_submit">Post!</button>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="post_item_modal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Item Posted Successfully!</h4>
+                </div>
+                <div class="modal-body">
+                    <h5 id="success_post_name"></h5>
+                    <p id="success_post_price"></p>
+                    <p id="success_post_base"></p>
+                    <h5>Description</h5>
+                    <div id="success_post_description" style="overflow-y: auto; width: auto; height: 200px; border: 1px solid black;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

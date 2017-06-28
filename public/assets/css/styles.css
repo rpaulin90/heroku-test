@@ -1,0 +1,45 @@
+
+/* MODAL */
+
+.modal_footer {
+
+    margin-top: 10px;
+
+}
+
+.center_align {
+
+    text-align: center;
+
+}
+
+#homepage_dropdown {
+
+    margin: 20px 0 10px 0;
+
+}
+
+.homepage_category {
+
+    margin-top: 10px;
+
+}
+
+/* END MODAL */
+
+/* CAROUSEL */
+
+.hero-slide {
+    margin-top: -20px;
+}
+ 
+.carousel {
+    height: 50%;
+}
+
+.slider-size {
+    height: 300px;
+}
+
+
+/* END CAROUSEL */
