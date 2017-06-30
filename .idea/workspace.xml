@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfc44ba-3ab4-4054-b382-b1a93ef9634c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/image_upload.js" afterPath="$PROJECT_DIR$/public/js/image_upload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/make_a_post_logic.js" afterPath="$PROJECT_DIR$/public/js/make_a_post_logic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/make_a_post.handlebars" afterPath="$PROJECT_DIR$/views/make_a_post.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/item_page.handlebars" afterPath="$PROJECT_DIR$/views/item_page.handlebars" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register_login_modal.handlebars" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register_login_modal.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/register_login_modal.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
@@ -34,6 +32,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
               <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_page.handlebars" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/item_page.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_page_routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/item_page_routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,6 +135,7 @@
         <option value="$PROJECT_DIR$/views/make_a_post.handlebars" />
         <option value="$PROJECT_DIR$/public/js/make_a_post_logic.js" />
         <option value="$PROJECT_DIR$/public/js/image_upload.js" />
+        <option value="$PROJECT_DIR$/views/item_page.handlebars" />
       </list>
     </option>
   </component>
@@ -405,12 +424,12 @@
       <updated>1498624699580</updated>
       <workItem from="1498624701884" duration="2894000" />
       <workItem from="1498686963549" duration="5247000" />
-      <workItem from="1498780954059" duration="7628000" />
+      <workItem from="1498780954059" duration="7834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15769000" />
+    <option name="totallyTimeSpent" value="15975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="24" width="1170" height="603" extended-state="0" />
@@ -769,6 +788,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/register_login_modal.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="74" column="76" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/make_a_post.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -777,10 +804,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/register_login_modal.handlebars">
+    <entry file="file://$PROJECT_DIR$/routes/item_page_routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="74" column="76" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="76" />
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/item_page.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
