@@ -13,7 +13,6 @@ var moment = require('moment');
 
 module.exports = function(app) {
 
-
     app.get("/", function(req, res) {
 
         db.Category.findAll().then(function(results_categories) {
@@ -57,7 +56,6 @@ module.exports = function(app) {
 
 
     });
-
 
     app.get("/api/:base/:category/:page", function(req, res) {
 

@@ -19,3 +19,4 @@ $("#profile_btn").on("click",function(){
     console.log(current_user_id);
 
 });
+

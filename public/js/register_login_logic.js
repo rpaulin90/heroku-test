@@ -85,7 +85,8 @@ $("#create_account").on("click",function(event){
         base: $("#base_register").val(),
         email: $("#email_register").val().trim(),
         password: $("#pwd_register").val().trim(),
-        image: $("#image_register").val().trim(),
+        //image: $("#image_register").val().trim(),
+        image: $("#avatar-url").val().trim(),
         rank: $("#rank_register").val().trim()
 
     };
@@ -189,7 +190,7 @@ $("#logout_btn").on("click",function(event){
 
     // event.preventDefault();
 
-    firebase.auth().signOut().then(function () {
+    firebase.auth().signOut().then(function ()        {
 
         console.log("signed out successfully")
 
