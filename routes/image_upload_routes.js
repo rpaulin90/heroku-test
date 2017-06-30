@@ -19,7 +19,8 @@ const S3_BUCKET = process.env.S3_BUCKET;
 module.exports = function(app) {
     app.get('/sign-s3', function(req, res) {
         var s3 = new aws.S3( {
-            signatureVersion: 'v4'
+            signatureVersion: 'v4',
+            region:'us-east-2'
         } );
         const fileName = req.query['file-name'];
         const fileType = req.query['file-type'];
