@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfc44ba-3ab4-4054-b382-b1a93ef9634c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/image_upload_routes.js" afterPath="$PROJECT_DIR$/routes/image_upload_routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/image_upload.js" afterPath="$PROJECT_DIR$/public/js/image_upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/register_login_logic.js" afterPath="$PROJECT_DIR$/public/js/register_login_logic.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image_upload_routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image_upload_routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/image_upload_routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -42,11 +43,21 @@
       <file leaf-file-name="image_upload.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/image_upload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="555">
+              <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_login_logic.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/register_login_logic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,11 +89,11 @@
         <option value="$PROJECT_DIR$/routes/firebase_routes.js" />
         <option value="$PROJECT_DIR$/routes/image_upload.js" />
         <option value="$PROJECT_DIR$/views/partials/register_login_modal.handlebars" />
-        <option value="$PROJECT_DIR$/public/js/register_login_logic.js" />
         <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/public/js/image_upload.js" />
         <option value="$PROJECT_DIR$/routes/image_upload_routes.js" />
+        <option value="$PROJECT_DIR$/public/js/register_login_logic.js" />
+        <option value="$PROJECT_DIR$/public/js/image_upload.js" />
       </list>
     </option>
   </component>
@@ -371,12 +382,12 @@
       <updated>1498624699580</updated>
       <workItem from="1498624701884" duration="2894000" />
       <workItem from="1498686963549" duration="5247000" />
-      <workItem from="1498780954059" duration="5654000" />
+      <workItem from="1498780954059" duration="6797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13795000" />
+    <option name="totallyTimeSpent" value="14938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="24" width="1170" height="603" extended-state="0" />
@@ -651,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/register_login_logic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-637">
-          <caret line="193" column="0" lean-forward="true" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -715,16 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/image_upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/image_upload_routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -732,6 +725,24 @@
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/image_upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/register_login_logic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

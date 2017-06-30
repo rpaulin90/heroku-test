@@ -37,7 +37,7 @@ function uploadFile(file, signedRequest, url){
         if(xhr.readyState === 4){
             if(xhr.status === 200){
                 document.getElementById('preview').src = url;
-                document.getElementById('avatar-url').value = url;
+                //document.getElementById('avatar-url').value = url;
             }
             else{
                 alert('Could not upload file.');
